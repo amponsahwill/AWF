@@ -4,7 +4,7 @@
 
 body { 
 height: 100vh;
-    background-image: url(/asset/african.png);
+    background-image: url(../asset/african.png);
     background-size: cover;
     background-attachment: fixed;
 
