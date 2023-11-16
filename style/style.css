@@ -3,7 +3,7 @@
 
 
 body { 
-height: 100vh;
+min-height: 100vh;
     background-image: url(../asset/african.png);
     background-size:auto;
    
@@ -18,7 +18,7 @@ height: 100vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ height: 100vh;
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -44,7 +44,7 @@ height: 100vh;
     background-size: cover;
     
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@ height: 100vh;
 
     /* Add your image here */
 
-    height: 100vh;
+    min-height: 100vh;
         display: flex;
             justify-content: center;
             align-items: center;
@@ -126,7 +126,7 @@ margin: auto;
 
 
 .pannal2 {
-    height: 1000px;
+    min-height: 1000px;
     font-size: 36px;
 
   background-color: red;
@@ -233,6 +233,18 @@ margin: auto;
         height: 30px;
         margin-left: 10px;
     }
+
+        .section1 {
+    
+            /* Add your image here */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 }
 
 @media only screen and (min-width: 768px) {
@@ -250,3 +262,5 @@ margin: auto;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+min-height: -webkit-fill-available
