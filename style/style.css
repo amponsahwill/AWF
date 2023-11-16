@@ -42,7 +42,7 @@ height: 100vh;
 
     /* Add your image here */
     background-size: cover;
-    background-attachment: fixed;
+    
     background-position: center;
     height: 100vh;
     display: flex;
