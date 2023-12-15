@@ -42,7 +42,7 @@ section {
 
     &.over {
         position: relative;
-        /* z-index: 10; */
+        z-index: 10;
     }
 
     .over-inner {
@@ -291,16 +291,7 @@ h1 {
     transform: scale(0);
 }
 
-@media screen and (max-width: 800px) {
-    h1 {
-        font-size: 5rem;
-    }
 
-    /* sparkle */
-    .superscript::after {
-        --size: 6rem;
-    }
-}
 
 [class*="col-"] {
     width: 100%;
