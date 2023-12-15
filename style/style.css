@@ -1,83 +1,73 @@
-
 /* Reset some default margin and padding */
 
-
-body { 
-min-height: 100vh;
-    background-image: url(../asset/african.png);
-    background-size:auto;
-   
-
+body {
+  min-height: 100vh;
+  background-image: url(../asset/african.png);
+  background-size: auto;
 }
-
 
 /* Style for the parallax container */
 .section1 {
-   
-    /* Add your image here */
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* Add your image here */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section2 {
-    background-color: rgba(0, 0, 0, .5);
-    
-        /* Add your image here */
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* Add your image here */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section3 {
-    background-color: rgb(60, 1, 1);
+  background-color: rgb(60, 1, 1);
 
-    /* Add your image here */
-    background-size: cover;
-    
-    background-position: center;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* Add your image here */
+  background-size: cover;
+
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section4 {
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 
-    /* Add your image here */
+  /* Add your image here */
 
-    min-height: 100vh;
-        display: flex;
-            justify-content: center;
-            align-items: center;
-
-  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style for the content inside the parallax section */
 .parallax-content {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 /* Style for the main content below the parallax section */
 .content {
-    padding: 20px;
-    background-color: black;
+  padding: 20px;
+  background-color: black;
 }
 
 /* Additional styles as needed */
-
-
 
 /* body,
 html {
@@ -110,8 +100,6 @@ margin: auto;
 
 } */
 
-
-
 /* 
 .center1 {
 
@@ -124,143 +112,112 @@ margin: auto;
 
 } */
 
-
 .pannal2 {
-    min-height: 1000px;
-    font-size: 36px;
+  min-height: 1000px;
+  font-size: 36px;
 
   background-color: red;
-
 }
 .displayFont {
-    font-size: 150pt;
-    text-align: center;
+  font-size: 150pt;
+  text-align: center;
 }
 
 .textFont {
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 23pt;
-    text-align: center;
-    font-weight: 700;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 23pt;
+  text-align: center;
+  font-weight: 700;
 }
 
 .textFont2 {
-    padding-left: 100px;
-    padding-right: 100px;
-   
-    font-size: 93pt;
-    
+  padding-left: 100px;
+  padding-right: 100px;
+
+  font-size: 93pt;
 }
 
-
-
 .textFont3 {
-    padding-left: 100px;
-    padding-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 
-    font-size: 25pt;
-
+  font-size: 25pt;
 }
 
 .textFont4 {
-    
-    padding-right: 100px;
+  padding-right: 100px;
 
-    font-size: 20pt;
-
+  font-size: 20pt;
 }
 
 .team-member img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .button-round {
-    border-radius: 90px;
-    border: 2px solid rgba(108, 89, 179, 0.75);
-    background: transparent;
+  border-radius: 90px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  background: transparent;
 }
 
 /* For mobile phones: */
 [class*="col-"] {
-    width: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
-.displayFont {
-        font-size: 40pt;
-        text-align: center;
-    }
-        .textFont {
-            padding-left: 20px;
-            padding-right: 20px;
-            font-size: 10pt;
-            text-align: center;
-            font-weight: 300;
-        }
+  .displayFont {
+    font-size: 40pt;
+    text-align: center;
+  }
+  .textFont {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10pt;
+    text-align: center;
+    font-weight: 300;
+  }
 
-                 .textFont5 {
-                
-                     font-size: 10pt;
-                
-                 }
+  .textFont5 {
+    font-size: 10pt;
+  }
 
-        .textFont2 {
-        text-align: center;
-    
-            font-size: 35pt;
-    
-        }
+  .textFont2 {
+    text-align: center;
 
-                .textFont3 {
-                text-align: center;
-        
-                    font-size: 15pt;
-        
-                }
+    font-size: 35pt;
+  }
 
-                .textFont4 {
-        
-                margin-left: 5px;
-        
-                    font-size: 10pt;
-        
-                }
+  .textFont3 {
+    text-align: center;
 
-    svg { 
-        width: 30px;
-        height: 30px;
-        margin-left: 10px;
-    }
+    font-size: 15pt;
+  }
 
-        .section1 {
-    
-            /* Add your image here */
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  .textFont4 {
+    margin-left: 5px;
+
+    font-size: 10pt;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .section1 {
+    /* Add your image here */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
 
-min-height: -webkit-fill-available
