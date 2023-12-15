@@ -307,25 +307,54 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) {
-    .displayFont {
-        font-size: 40pt;
-        text-align: center;
-    }
+  .displayFont {
+    font-size: 40pt;
+    text-align: center;
+  }
+  .textFont {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10pt;
+    text-align: center;
+    font-weight: 300;
+  }
 
-   
+  .textFont5 {
+    font-size: 10pt;
+  }
 
-  
+  .textFont2 {
+    text-align: center;
 
-   
+    font-size: 35pt;
+  }
 
-    .section1 {
-        /* Add your image here */
-      
-       
+  .textFont3 {
+    text-align: center;
 
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    font-size: 15pt;
+  }
+
+  .textFont4 {
+    margin-left: 5px;
+
+    font-size: 10pt;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .section1 {
+    /* Add your image here */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
